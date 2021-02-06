@@ -5,7 +5,7 @@ window.title("Student Management System")
 
 # Init setup
 window.configure(background = "lemon chiffon")
-window.minsize(width = 550, height = 400)
+window.minsize(width = 550, height = 300)
 
 def click_Yes():
     print("Yes!")
@@ -41,7 +41,6 @@ title.grid(row = 0, column = 3, sticky = E)
 
 txtFirstName.grid(row = 5, column = 3, sticky = E)
 txtLastName.grid(row = 7, column = 3, sticky = E)
-# txtGender.grid(row = 9, column = 3, sticky = E)
 Checkbutton(window, text="Male").grid(row = 9, column = 3, sticky = E)
 Checkbutton(window, text="Female").grid(row = 9, column = 4, sticky = W)
 txtDOB.grid(row = 11, column = 3, sticky = E)

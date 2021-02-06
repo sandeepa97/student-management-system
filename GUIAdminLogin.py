@@ -5,7 +5,7 @@ window.title("Student Management System")
 
 # Init setup
 window.configure(background = "lemon chiffon")
-window.minsize(width = 350, height = 250)
+window.minsize(width = 250, height = 120)
 
 def click_Yes():
     print("Yes!")
@@ -31,5 +31,6 @@ def readEntry():
 
 
 Button(window, text = "Login", width = 12, bd = 4, command = readEntry, bg = "LightBlue1").grid(row = 20, column = 3, sticky = E)
+Button(window, text = "Cancel", width = 12, bd = 4, command = readEntry, bg = "LightBlue1").grid(row = 20, column = 4, sticky = E)
 
 window.mainloop()
